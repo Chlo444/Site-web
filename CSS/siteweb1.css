@@ -3,7 +3,8 @@ body{
 }
 
 p{
-    color: #2713dde3;
+    color: #dd1390e3;
+    font-weight: bold;
 }
 
 .titre1{
@@ -16,4 +17,21 @@ p{
 
 .header{
     background-color: aqua;
+}
+
+.lejardin{
+    font-weight: bold;
+}
+
+.ombrelle{
+    font-weight: bolder;
+}
+
+.enbref{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.date1{
+    color: rgb(0, 255, 0);
 }
