@@ -17,6 +17,7 @@ p{
 
 .header{
     background-color: aqua;
+    display: flex 2;
 }
 
 .lejardin{
@@ -34,4 +35,34 @@ p{
 
 .date1{
     color: rgb(0, 255, 0);
+}
+
+
+.violet{
+    width: 330px;
+    clip-path: inset(30px 10px 50px 0);
+}
+
+.parapluie{
+    width: 300px;
+}
+
+.jardin{
+    width: 150px;
+    clip-path: inset(10px 0 10px 25px);
+}
+
+
+.coquelicot{
+    width: 500px;
+    clip-path: inset(50px 170px 130px 200px);
+}
+
+.neige{
+    width: 1450px;
+    clip-path: inset(300px 0px 470px 0px);
+}
+
+.logo{
+    width: 130px;
 }
