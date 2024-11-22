@@ -48,6 +48,29 @@ ul li a:hover{
     border-radius: 2rem;
 }
 
+.bouton1{
+
+    background-color: darkgreen;
+    border: none; 
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    border-radius: 4rem;
+    text-align: center;
+
+}
+
+.citation{
+    padding: 70px ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6ch;
+
+}
 
 
 .lejardin{
