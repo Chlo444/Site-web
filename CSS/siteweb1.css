@@ -59,6 +59,9 @@ ul li a:hover{
 .enbref{
     font-size: x-large;
     font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 610px;
 }
 
 .date1{
