@@ -120,3 +120,33 @@ ul li a:hover{
 .logo{
     width: 130px;
 }
+
+
+.vetheuil{
+    background-color: #fafaf5;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #DCDCDC;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.textevetheuil{
+    margin-left: 10px;
+}
+
+.argenteuil{
+    background-color: #fafaf5;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #DCDCDC;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.texteargenteuil{
+    margin-left: 10px;
+}
+
