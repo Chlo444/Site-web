@@ -87,6 +87,13 @@ ul li a:hover{
     left: 610px;
 }
 
+.p1{
+    top: 200px;
+    position: absolute;
+    display: flex;
+    margin-left: 680px;
+}
+
 .date1{
     color: rgb(4, 89, 35);
 }
