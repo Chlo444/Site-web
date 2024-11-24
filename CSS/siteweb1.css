@@ -73,12 +73,6 @@ ul li a:hover{
 }
 
 
-.lejardin{
-    font-weight: bold;
-}
-
-
-
 .enbref{
     font-size: x-large;
     font-weight: bold;
@@ -93,6 +87,23 @@ ul li a:hover{
     display: flex;
     margin-left: 600px;
 }
+
+.lejardin{
+    top: 670px;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.claude1{
+    top: 690px;
+    position: absolute;
+    display: flex;
+    font-weight: 100;
+
+}
+
 .date1{
     color: rgb(4, 89, 35);
 }
