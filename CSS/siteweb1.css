@@ -83,17 +83,16 @@ ul li a:hover{
     font-size: x-large;
     font-weight: bold;
     position: absolute;
-    top: 100px;
+    top: 420px;
     left: 610px;
 }
 
 .p1{
-    top: 200px;
+    top: 470px;
     position: absolute;
     display: flex;
-    margin-left: 680px;
+    margin-left: 600px;
 }
-
 .date1{
     color: rgb(4, 89, 35);
 }
