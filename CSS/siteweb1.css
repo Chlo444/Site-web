@@ -104,6 +104,21 @@ ul li a:hover{
 
 }
 
+.ombrelle{
+    top: 720px;
+    position: absolute;
+    display: flex;
+    margin-left: 335px;
+}
+
+.claude2{
+    top: 740px;
+    position: absolute;
+    display: flex;
+    font-weight: 100;
+    margin-left: 335px;
+}
+
 .date1{
     color: rgb(4, 89, 35);
 }
