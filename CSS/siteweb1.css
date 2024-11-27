@@ -126,32 +126,29 @@ ul li a:hover{
 
 .violet{
     width: 330px;
-    clip-path: inset(30px 10px 50px 0);
 }
 
 .parapluie{
-    width: 240px;
+    width: 300px;
 }
 
 .jardin{
-    width: 150px;
-    clip-path: inset(10px 0 10px 25px);
+    width: 150px;     
 }
 
 
 .coquelicot{
-    width: 500px;
-    clip-path: inset(50px 170px 130px 200px);
+    width: 150px;
 }
 
 .neige{
     width: 1450px;
-    clip-path: inset(300px 0px 470px 0px);
 }
 
 .logo{
     width: 130px;
 }
+
 
 
 .vetheuil{
