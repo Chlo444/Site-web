@@ -313,25 +313,34 @@ ul li a:hover{
     margin: 5px 0; 
     color: #333; 
   }
+
+
   
-  
-  .social-icons {
+.social-icons {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
+  }
+
+  .fa-brands.fa-square-facebook {
+    font-size: 50px;
+    transition: transform 0.3s ease;
   }
   
-  .social-icons a img {
-    width: 30px; 
-    height: 30px;
-    border-radius: 5px; 
-    transition: transform 0.2s; 
+  .fa-brands.fa-square-facebook:hover{
+    transform: scale(1.2) rotate(15deg);
+}
+
+.fa-brands.fa-square-instagram {
+    font-size: 50px;
+    transition: transform 0.3s ease;
   }
   
-  .social-icons a img:hover {
-    transform: scale(1.1);
-  }
+  .fa-brands.fa-square-instagram:hover{
+    transform: scale(1.2) rotate(15deg);
+}
   
-  
+
+
   .footer-logo img {
     max-width: 100px; 
     border-radius: 50%; 
