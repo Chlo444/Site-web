@@ -133,12 +133,14 @@ ul li a:hover{
 }
 
 .jardin{
-    width: 150px;     
+    width: 150px;  
+    transition: transform 0.3s ease;  
 }
 
 
 .coquelicot{
     width: 150px;
+    transition: transform 0.3s ease;  
 }
 
 .neige{
@@ -149,6 +151,15 @@ ul li a:hover{
     width: 130px;
 }
 
+
+.jardin:hover{
+    transform: scale(1.3) translateX(20%);;
+}
+
+
+.coquelicot:hover{
+    transform: scale(1.3) translateX(20%);;
+}
 
 
 .vetheuil{
