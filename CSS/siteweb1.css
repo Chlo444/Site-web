@@ -328,8 +328,21 @@ ul li a:hover{
     transform: scale(1.1);
   }
   
-  /* Logo */
+  
   .footer-logo img {
     max-width: 100px; 
     border-radius: 50%; 
   }
+
+
+@media screen and (max-width: 580px) {
+    h1 {
+        font-size: 1.8rem;
+      }
+
+      .parapluie{
+        margin: auto;
+
+      }
+    
+    }
