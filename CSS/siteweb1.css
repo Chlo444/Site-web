@@ -72,52 +72,56 @@ ul li a:hover{
 
 }
 
-
 .enbref{
     font-size: x-large;
     font-weight: bold;
     position: absolute;
     top: 420px;
-    left: 610px;
+    left: 650px;
 }
 
 .p1{
     top: 470px;
     position: absolute;
     display: flex;
-    margin-left: 600px;
+    margin-left: 650px;
 }
 
 .lejardin{
-    top: 670px;
+    top: 800px;
     position: absolute;
     display: flex;
     font-weight: bold;
-
+    margin-bottom: 100px;
 }
 
 .claude1{
-    top: 690px;
+    top: 815px;
     position: absolute;
     display: flex;
-    font-weight: 100;
+    font-weight: 100 ;
+
 
 }
 
 .ombrelle{
-    top: 720px;
+    top: 800px;
     position: absolute;
     display: flex;
     margin-left: 335px;
+    margin-bottom: 100px;
 }
 
 .claude2{
-    top: 740px;
+    top: 815px;
     position: absolute;
     display: flex;
     font-weight: 100;
-    margin-left: 335px;
+    margin-left: 332px;
 }
+
+
+
 
 .date1{
     color: rgb(4, 89, 35);
