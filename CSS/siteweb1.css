@@ -48,6 +48,11 @@ ul li a:hover{
     border-radius: 2rem;
 }
 
+.citation h1{
+  font-size:50px;
+  font-weight: 100;
+}
+
 .bouton1{
 
     background-color: darkgreen;
