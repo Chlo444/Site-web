@@ -342,3 +342,124 @@ h4{
       }
     
     }
+
+
+@media screen and (max-width: 1024px) {
+    /* Réduction du texte dans les titres */
+    .titre1 {
+        font-size: large;
+    }
+
+    .citation h1 {
+        font-size: 2rem;
+    }
+
+    .bouton1 h4 {
+        font-size: 0.9rem;
+    }
+
+    /* Ajustement des images */
+    .violet,
+    .parapluie {
+        width: 80%;
+        margin: auto;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .texte {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .texte p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajustement des espaces et textes */
+    .header {
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        padding: 5px;
+    }
+
+    .citation h1 {
+        font-size: 1.5rem;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .violet,
+    .parapluie {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .texte {
+        margin: 0;
+    }
+
+    .texte p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .parapluie, .violet {
+        margin: 0 auto;
+    }
+
+    .texte p {
+        font-size: 0.8rem;
+    }
+
+    /* Formulaire */
+    .form-container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-logo img {
+        width: 80px;
+    }
+
+    .footer-title h2 {
+        font-size: 1.2rem;
+    }
+
+    .social-icons i {
+        font-size: 30px;
+    }
+}
