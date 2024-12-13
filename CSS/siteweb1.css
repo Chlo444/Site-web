@@ -175,7 +175,13 @@ h4{
 }
 
 
-
+.neige {
+    width: 100%;
+    max-width: 100%; /* Empêche le débordement */
+    height: auto; /* Conserve le ratio d'aspect */
+    display: block; /* Évite l'espacement blanc autour de l'image */
+    margin: 0 auto; /* Centre l'image si nécessaire */
+}
 
 .form-container {
     background-color: #fafaf5;
