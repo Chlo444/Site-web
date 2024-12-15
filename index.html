@@ -1,142 +1,164 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title> siteweb </title>
-        <link rel="stylesheet" href="CSS/siteweb1.css" type="text/css">
-        <script src="https://kit.fontawesome.com/9a92887742.js" crossorigin="anonymous"></script>
-         <meta name="description" content="Galerie d’art,Exposition, Peinture impressionnisme, Art moderne, Art, Claude Monet, Impressionisme, Oeuvres de Claude Monet, La promenade Claude Monet, Le jardin de l’artiste à Giverny">
-
-    </head>
-    <body>
-
-
-        <div class="header" >
-          <nav>
-            <ul>
-
-             <li> <a class="titre1" href="#"> La pièce de Monet</a></li>
-             <li > <a href="#"> Galerie Virtuelle </a></li>
-             <li > <a href="#"> Évènements </a></li>
-             <li > <a href="#"> Contact </a></li>
-             <li > <a class="bouton" href="#"> Panier </a></li>
-            </ul>
-          </nav>
-        </div>
-
-<div class="citation">
-        <h1> Claude Monet, la vraie <br> monnaie de l’art. <br>  </h1>
-        <div class="bouton1" href="#"> 
-            <h4> Claude Monet life's </h4>
-        </div>     
-    </div>
-
-      <div class="images"> 
-          <div class="tableau1">
-        <img src="Images site web/violet.jpg" alt="Le jardin de l'artiste à Giverny" class="violet">
-        <h4 class="lejardin"> Le Jardin de l'artiste à Giverny</h4>
-        <p class="claude1">Peinture de Claude Monet</p>
-          </div>
-          <div class="tableau2">
-        <img src="Images site web/parapluie.jpg" alt="La Promenade" class="parapluie">
-        <h4 class="ombrelle"> La Promenade</h4>
-        <p class="claude2">Peinture de Claude Monet</p>
-          </div>
-          <div class="texte">
-        <p class="enbref"> EN BREF </p>
-        <p class="p1"> La Pièce de Monet, une galerie d'art entièrement dédiée aux <br>chefs-d'œuvre du célèbre peintre impressionniste Claude<br> Monet. <br><br>
-             Située à Martignas-sur-Jalle, notre galerie vous invite à <br>plonger dans l'univers fascinant de l'artiste qui a révolutionné <br>la peinture avec ses jeux de
-             lumière et ses paysages <br>captivants. Que vous soyez amateur d'art ou simple curieux,<br> venez découvrir une collection unique qui met en lumière les<br>nuances et 
-             la beauté intemporelle des œuvres de Monet.</p>
-          </div>
+  <!DOCTYPE html>
+    <html>
+        <head>
+            <!-- Encodage des caractères en UTF-8 pour gérer les caractères spéciaux -->
+            <meta charset="utf-8"/>
             
-        </div>
-
-<br> <br> <br>
-    <h1> À VENIR... </h1>
-
-   <div class="avenir"> 
-        <div class="vetheuil">
-    <img src="Images site web/jardin.jpg" alt="Le jardin de Monet à Vétheuil" class="jardin">
-            <div class="textevetheuil">
-    <p> Le Jardin de Monet à Vétheuil </p>
-    <p class="date1"> 23 janvier </p>
-    <br><br><br>
-    <p class="prix1"> à partir de 14.95  € </p>
-             </div>
-        </div>
-<br>
-        <div class="argenteuil">
-    <img src="Images site web/coquelicot.jpg" alt="Les coquelicots d'Argenteuil" class="coquelicot">
-            <div class="texteargenteuil">
-    <p> Les Coquelicots d'Argenteuil </p>
-    <p class="date1"> 12 février </p>
-    <br><br><br>
-    <p class="prix1"> à partir de 14.95  € </p>
-            </div>
-        </div>
-   </div>
-
-        <br><br><br><br><br><br>
-<div class="neige"> 
-    <img src="Images site web/neige.jpg" alt="Neige à Argenteuil" class="neige">
-</div>
-
-
-<div class="form-container">
-    <h1>Réserver</h1>
-    <form>
-      <div class="form-group">
-        <label for="email">Adresse Email</label>
-        <input type="email" id="email" name="email" placeholder="Adresse Email" required>
-      </div>
-      <div class="form-group">
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" name="nom" placeholder="Nom" required>
-      </div>
-      <div class="form-group">
-        <label for="prenom">Prénom</label>
-        <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
-      </div>
-      <button type="submit" class="btn">
-        Continuer <span class="arrow">→</span>
-      </button>
-    </form>
-  </div>
-
-
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-title">
-        <h2>La pièce de Monet</h2>
-      </div>
-  
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Horaires d'ouverture :</h3>
-          <p>Lundi au mercredi : 9h-12h30 | 13h30-18h</p>
-          <p>Jeudi et Vendredi : 13h30-18h</p>
-        </div>
-  
-        <div class="footer-section">
-          <p>5 Avenue de la Piperre</p>
-          <p>33412 Martignas-sur-Jalle</p>
-          <p>Tel : 04 23 11 02 83</p>
-        </div>
-  
+            <!-- Titre de la page affiché dans l'onglet du navigateur -->
+            <title> siteweb </title>
+            
+            <!-- Lien vers la feuille de style CSS externe -->
+            <link rel="stylesheet" href="CSS/siteweb1.css" type="text/css">
+            
+            <!-- Intégration d'une bibliothèque d'icônes (FontAwesome) -->
+            <script src="https://kit.fontawesome.com/9a92887742.js" crossorigin="anonymous"></script>
+            
+            <!-- Méta description pour le SEO -->
+            <meta name="description" content="Galerie d’art,Exposition, Peinture impressionnisme, Art moderne, Art, Claude Monet, Impressionisme, Oeuvres de Claude Monet, La promenade Claude Monet, Le jardin de l’artiste à Giverny">
+        </head>
         
-        <div class="footer-section">
-          <h3>Nous retrouver :</h3>
-          <div class="social-icons">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
+        <body>
+          <!-- En-tête du site contenant la navigation -->
+          <div class="header" >
+            <nav>
+              <ul>
+                <!-- Liens de navigation -->
+                <li> <a class="titre1" href="#"> La pièce de Monet</a></li>
+                <li > <a href="#"> Galerie Virtuelle </a></li>
+                <li > <a href="#"> Évènements </a></li>
+                <li > <a href="#"> Contact </a></li>
+                <li > <a class="bouton" href="#"> Panier </a></li>
+              </ul>
+            </nav>
           </div>
-        </div>
-  
-        
-        <div class="footer-logo">
-          <img src="Images site web/logo.png" alt="Logo La pièce de Monet">
-        </div>
-      </div>
-    </div>
-  </footer>
+    
+          <!-- Section de citation avec titre principal -->
+          <div class="citation">
+            <h1> Claude Monet, la vraie <br> monnaie de l’art. <br>  </h1>
+            <div class="bouton1" href="#"> 
+              <h4> Claude Monet life's </h4>
+            </div>     
+          </div>
+    
+          <!-- Section des images principales -->
+          <div class="images"> 
+            <!-- Premier tableau -->
+            <div class="tableau1">
+              <img src="Images site web/violet.jpg" alt="Le jardin de l'artiste à Giverny" class="violet">
+              <h4 class="lejardin"> Le Jardin de l'artiste à Giverny</h4>
+              <p class="claude1">Peinture de Claude Monet</p>
+            </div>
+            
+            <!-- Deuxième tableau -->
+            <div class="tableau2">
+              <img src="Images site web/parapluie.jpg" alt="La Promenade" class="parapluie">
+              <h4 class="ombrelle"> La Promenade</h4>
+              <p class="claude2">Peinture de Claude Monet</p>
+            </div>
+            
+            <!-- Texte descriptif sur la galerie -->
+            <div class="texte">
+              <p class="enbref"> EN BREF </p>
+              <p class="p1"> La Pièce de Monet, une galerie d'art entièrement dédiée aux <br>chefs-d'œuvre du célèbre peintre impressionniste Claude<br> Monet. <br><br>
+                 Située à Martignas-sur-Jalle, notre galerie vous invite à <br>plonger dans l'univers fascinant de l'artiste qui a révolutionné <br>la peinture avec ses jeux de
+                 lumière et ses paysages <br>captivants. Que vous soyez amateur d'art ou simple curieux,<br> venez découvrir une collection unique qui met en lumière les<br>nuances et 
+                 la beauté intemporelle des œuvres de Monet.</p>
+            </div>
+          </div>
+    
+          <br> <br> <br>
+          <!-- Section des oeuvres à venir -->
+          <h1> À VENIR... </h1>
+          
+          <div class="avenir"> 
+            <!-- Premiere oeuvre -->
+            <div class="vetheuil">
+              <img src="Images site web/jardin.jpg" alt="Le jardin de Monet à Vêtheuil" class="jardin">
+                <div class="textevetheuil">
+                  <p> Le Jardin de Monet à Vêtheuil </p>
+                  <p class="date1"> 23 janvier </p>
+                  <br><br><br>
+                  <p class="prix1"> à partir de 14.95  € </p>
+                </div>
+            </div>
+            <br>
+            <!-- Deuxième oeuvre -->
+            <div class="argenteuil">
+              <img src="Images site web/coquelicot.jpg" alt="Les coquelicots d'Argenteuil" class="coquelicot">
+                <div class="texteargenteuil">
+                  <p> Les Coquelicots d'Argenteuil </p>
+                  <p class="date1"> 12 février </p>
+                  <br><br><br>
+                  <p class="prix1"> à partir de 14.95  € </p>
+                </div>
+            </div>
+          </div>
+    
+          <br><br><br><br><br><br>
+          <!-- Image principale de décoration -->
+          <div class="neige"> 
+            <img src="Images site web/neige.jpg" alt="Neige à Argenteuil" class="neige">
+          </div>
+    
+          <!-- Formulaire de réservation -->
+          <div class="form-container">
+            <h1>Réserver</h1>
+            <form>
+              <div class="form-group">
+                <label for="email">Adresse Email</label>
+                <input type="email" id="email" name="email" placeholder="Adresse Email" required>
+              </div>
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Nom" required>
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+              </div>
+              <button type="submit" class="btn">
+                Continuer <span class="arrow">→</span>
+              </button>
+            </form>
+          </div>
+    
+          <!-- Pied de page -->
+          <footer class="footer">
+            <div class="footer-container">
+              <!-- Titre du pied de page -->
+              <div class="footer-title">
+              <h2>La pièce de Monet</h2>
+            </div>
+      
+            <div class="footer-content">
+              <!-- Section des horaires -->
+              <div class="footer-section">
+                <h3>Horaires d'ouverture :</h3>
+                <p>Lundi au mercredi : 9h-12h30 | 13h30-18h</p>
+                <p>Jeudi et Vendredi : 13h30-18h</p>
+              </div>
+      
+              <!-- Adresse et contact -->
+              <div class="footer-section">
+                <p>5 Avenue de la Piperre</p>
+                <p>33412 Martignas-sur-Jalle</p>
+                <p>Tel : 04 23 11 02 83</p>
+              </div>
+      
+              <!-- Icônes de réseaux sociaux -->
+              <div class="footer-section">
+                <h3>Nous retrouver :</h3>
+                  <div class="social-icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                  </div>
+              </div>
+            
+              <!-- Logo du site web -->    
+              <div class="footer-logo">
+                <img src="Images site web/logo.png" alt="Logo La pièce de Monet">
+              </div>
+            </div>
+          </footer>
+          
+        </body>
